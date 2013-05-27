@@ -1,31 +1,32 @@
 <?xml version="1.0"?>
 
 <data>
-	 <application name="Qt5 Custom Geometry Demo">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/mm06</route>
-         </application>
+	<module name="Qt5">
+		 <application name="Qt5 Custom Geometry Demo">
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/customgeometry</route>
+		 </application>
 
-	<application name="Qt5 hellowindow demo">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/mm06</route>
-         </application>
-	<application name="Qt5 opengl under qml demo">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/mm06</route>
-         </application>
-	<application name="Qt5 shader effects">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/mm06</route>
-         </application>
-	<application name="Qt5 simple material">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/mm06</route>
-         </application>
-	<application name="Qt5 texture in sgnode">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/mm06</route>
-         </application>
+		<application name="Qt5 hellowindow demo">
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/hellowindow</route>
+		 </application>
+		<application name="Qt5 opengl under qml demo">
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/underqml</route>
+		 </application>
+		<application name="Qt5 shader effects">
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/shadereffects</route>
+		 </application>
+		<application name="Qt5 simple material">
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/simplematerial</route>
+		 </application>
+		<application name="Qt5 texture in sgnode">
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/textureinsgnode</route>
+		 </application>
 
-
+	</module>
 </data>
