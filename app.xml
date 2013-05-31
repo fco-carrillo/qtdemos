@@ -4,18 +4,18 @@
 	<module name="Qt5">
 		 <application name="Qt5 Custom Geometry Demo">
 		                <command>demos/qtdemos/customgeometry/customgeometry &amp;</command>
-		                <route>/customgeometry</route>
+		                <route>customgeometry</route>
 				<description> The custom geometry example shows how to create a QQuickItem which uses the scene graph API to build a custom geometry for the scene graph. It does this by creating a BezierCurve item which is made part of the CustomGeometry module and makes use of this in a QML file.</description>
 		 </application>
 
 		<application name="Qt5 hellowindow demo">
 		                <command>demos/qtdemos/hellowindow/hellowindow &amp;</command>
-		                <route>/hellowindow</route>
+		                <route>hellowindow</route>
 				<description>Qt demo Hello window shows 3 qt logos running in separate windows, for this it is required a windowing system such as wayland, if not present then it will show the 3 logos at the same time.</description>
 		 </application>
 		<application name="Qt5 opengl under qml demo">
 		                <command>demos/qtdemos/openglunderqml/openglunderqml &amp;</command>
-		                <route>/underqml</route>
+		                <route>underqml</route>
 				<description> The OpenGL under QML example shows how an application can make use
     of the \l QQuickWindow::beforeRendering() signal to draw custom
     OpenGL content under a Qt Quick scene. This signal is emitted at
@@ -25,7 +25,7 @@
 		 </application>
 		<application name="Qt5 shader effects">
 		                <command>demos/qtdemos/shadereffects/shadereffects &amp;</command>
-		                <route>/shadereffects</route>
+		                <route>shadereffects</route>
 				<description> This example demonstrates a couple of visual effects that you can perform
     with shaders in QtQuick 2.0
 
@@ -35,7 +35,7 @@
 		 </application>
 		<application name="Qt5 simple material">
 		                <command>demos/qtdemos/simplematerial/simplematerial &amp;</command>
-		                <route>/simplematerial</route>
+		                <route>simplematerial</route>
 				<description>In this example, we will make use of the \l
     QSGSimpleMaterialShader class to fill a shape in the scene
     graph. This is a convenience class intended to avoid a lot of the
@@ -52,7 +52,7 @@
 		 </application>
 		<application name="Qt5 texture in sgnode">
 		                <command>demos/qtdemos/textureinsgnode/textureinsgnode &amp;</command>
-		                <route>/textureinsgnode</route>
+		                <route>textureinsgnode</route>
 				<description>Qt demo showing a qml element as texture, brief Shows how to use FramebufferObjects with Qt Quick.</description>
 		 </application>
 
